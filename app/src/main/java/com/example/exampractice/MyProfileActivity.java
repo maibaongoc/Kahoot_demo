@@ -60,12 +60,6 @@ public class MyProfileActivity extends AppCompatActivity {
 
         dialogText = progressDialog.findViewById(R.id.dialog_text);
         dialogText.setText("Updating Data...");
-
-
-
-
-
-
         disableEditing();
 
         editB.setOnClickListener(new View.OnClickListener() {
